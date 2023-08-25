@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.logo-img{
+    max-width: 60px;
+
+}
+.titulo-principal {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+.menu .menu-1 .itens-menu{
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.menu .menu-1 .itens-menu a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.menu .menu-1 .itens-menu a:hover{
+    color: #FF0000;
+}
+
+.secao-1 {
+    padding: 30px;
+    text-align: justify;
+    border: 1px solid;
+    margin: auto;
+    max-width: 700px;
+    max-height: auto;
+    margin-bottom: 30px;
+}
+
+.titulo-secao {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.titulo-artigo {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+.itens-lista {
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+.item-lista {
+    list-style: disc;
+    
+}
+
+.item-lista a {
+    color: #010ca9;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.item-lista a:hover {
+    color: #015eff;
+}
+
+.fotos-minhas {
+    margin: auto;
+}
+
+img {
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
