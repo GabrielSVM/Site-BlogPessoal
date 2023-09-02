@@ -4,29 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super-Gabriel: Galeria</title>
-    <link rel="shortcut icon" href="../imagens-site/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens_site/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo"><img class="logo-img" src="../imagens-site/850-8509406_superman-logo-with-letter-g-g-superman.png" alt="Logo do site"></div>
+        <div class="logo"><img class="logo-img" src="../imagens_site/850-8509406_superman-logo-with-letter-g-g-superman.png" alt="Logo do site"></div>
         <h1 class="titulo-principal">Blog do Super Gabriel</h1>
         <nav class="menu">
-            <ul class="menu-1">
+            <ul class="menu-1" type="disc">
                 <li class="itens-menu -item-1"><a href="../index.html">Início</a></li>
-                <li class="itens-menu -item-1"><a href="../paginas/pagina-download.html">Livros</a></li>
+                <li>Livros</li>
+                    <ul class="menu-livros" >
+                        <li class="item-livro" type="circle"><a href="../../paginas/livros/desvendando_codigos_maliciosos.html">Desvendando Códigos Maliciosos</a></li>
+                        <li class="item-livro" type="circle"><a href="../../paginas/livros/manual_do_programador_para_iniciantes.html" rel="prev">Manual do Programador para Iniciantes</a></li>
+                    </ul>
                 <li class="itens-menu -item-1"><a href="../paginas/galeria.html">Galeria</a></li>
+                <li class="itens-menu"><a href="../paginas/faleconosco.html" rel="next">Fale Conosco</a></li>
+            </ul>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Galeria</h1>
         <section class="fotos-minhas">
-            <img src="../imagens-site/20220924_171624.jpg" alt="Foto do administrador do site na praça" class="imagens imagem-1">
-            <img src="../imagens-site/20221025_210401.jpg" alt="Foto do administrador do site no quarto" class="imagens imagem-2">
-            <img src="../imagens-site/20230415_225007.jpg" alt="Foto do administrador do site em vestes formais" class="imagens imagem-3">
-            <img src="../imagens-site/20230430_185514.jpg" alt="Foto do administrador do site fingindo felicidade genuina" class="imagens imagem-4">
-            <img src="../imagens-site/20230702_192353.jpg" alt="Foto do administrador do site com expressão de indiferença" class="imagens imagem-5">
+            <picture class="pictureContent">
+                <source media="(max-width: 750px)" srcset="../imagens_site/imagem_pequena/foto_1.jpg">
+                <source media="(max-width: 1050px)" srcset="../imagens_site/imagem_media/foto_1.jpg">
+                <img class="imgContent" src="../imagens_site/imagem_grande/foto_1.jpg" alt="Foto do administrador em algum lugar que não é uma praça.">
+            </picture>
+            <picture class="pictureContent">
+                <source media="(max-width: 750px)" srcset="../../imagens_site/imagem_pequena/foto_2.jpg">
+                <source media="(max-width: 1050px)" srcset="../../imagens_site/imagem_media/foto_2.jpg">
+                <img class="imgContent" src="../../imagens_site/imagem_grande/foto_2.jpg" alt="Foto do administrador em uma célula. O termo célula refere-se à comunhão de pessoas e não uma célula do corpo.">
+            </picture>
+            <picture class="pictureContent">
+                <source media="(max-width: 750px)" srcset="../../imagens_site/imagem_pequena/foto_3.jpg">
+                <source media="(max-width: 1050px)" srcset="../../imagens_site/imagem_media/foto_3.jpg">
+                <img class="imgContent" src="../../imagens_site/imagem_grande/foto_3.jpg" alt="Administrador em vestes formais.">
+            </picture>
+            <picture class="pictureContent">
+                <source media="(max-width: 750px)" srcset="../../imagens_site/imagem_pequena/foto_4.jpg">
+                <source media="(max-width: 1050px)" srcset="../../imagens_site/imagem_media/foto_4.jpg">
+                <img class="imgContent" src="../../imagens_site/imagem_grande/foto_4.jpg" alt="Administrador fingindo felicidade genuína. Ele também faz um sinal de positivo para tentar criar uma empatia falsa e conquistar seu publico mais leigo.">
+            </picture>
+            <picture class="pictureContent">
+                <source media="(max-width: 750px)" srcset="../../imagens_site/imagem_pequena/foto_5.jpg">
+                <source media="(max-width: 1050px)" srcset="../../imagens_site/imagem_media/foto_5.jpg">
+                <img class="imgContent" src="../../imagens_site/imagem_grande/foto_5.jpg" alt="Administrador fazendo uma expressão de indiferença">
+            </picture>
+            
         </section>
     </main>
 </body>

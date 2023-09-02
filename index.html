@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super-Gabriel</title>
-    <link rel="shortcut icon" href="imagens-site/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens_site/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,18 +13,30 @@
     👍 -->
 
     <header>
-        <div class="logo"><img class="logo-img" src="imagens-site/850-8509406_superman-logo-with-letter-g-g-superman.png" alt="Logo do site"></div>
+        <div class="logo"><img class="logo-img" src="imagens_site/850-8509406_superman-logo-with-letter-g-g-superman.png" alt="Logo do site"></div>
         <h1 class="titulo-principal">Blog do Super Gabriel</h1>
         <nav class="menu">
-            <ul class="menu-1">
-                <li class="itens-menu -item-1"><a href="index.html">Início</a></li>
-                <li class="itens-menu -item-1"><a href="paginas/pagina-download.html">Livros</a></li>
-                <li class="itens-menu -item-1"><a href="paginas/galeria.html">Galeria</a></li>
+            <ul class="menu-1" type="disc">
+                <li class="itens-menu"><a href="index.html">Início</a></li>
+                <li>Livros</li>
+                    <ul class="menu-livros" >
+                        <li class="item-livro" type="circle"><a href="paginas/livros/desvendando_codigos_maliciosos.html" rel="next">Desvendando Códigos Maliciosos</a></li>
+                        <li class="item-livro" type="circle"><a href="paginas/livros/manual_do_programador_para_iniciantes.html">Manual do Programador para Iniciantes</a></li>
+                    </ul>
+                <li class="itens-menu "><a href="paginas/galeria.html">Galeria</a></li>
+                <li class="itens-menu"><a href="paginas/faleconosco.html">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
    <main>
        <section class="secao-1">
+        <p>Aqui esta uma música relaxante enquanto você estiver mexendo em meu blog.</p>
+        <audio controls loop>
+            <source src="audios/interstellar-main-theme.mp3" type="audio/mpeg">
+            <source src="audios/interstellar-main-theme.ogg" type="audio/ogg">
+            <source src="audios/interstellar-main-theme.wav" type="audio/wav">
+            <p>Desculpe, não carregou!</p>
+        </audio>
             <h2 class="titulo-secao">Como está sendo a criação do meu primeiro site</h2>
             <article class="artigo artigo-1">
                 <h3 class="titulo-artigo">Meus Primeiros Passos</h3>
@@ -40,16 +52,8 @@
                 <p>Agradeço desde já pela paciência e pelo interesse em acompanhar a transformação deste site em constante evolução.</p>
             </article>
             <article class="artigo artigo-3">
-                <h3 class="titulo-artigo">Desvendando Códigos Maliciosos - Guia Conciso</h3>
-                <p>Bem-vindo ao guia "Desvendando Códigos Maliciosos", um recurso essencial para entender e se proteger contra ameaças digitais. Neste guia, exploraremos de forma clara e direta os conceitos cruciais relacionados a ataques cibernéticos, códigos maliciosos e ações preventivas para salvaguardar seu computador.<br><br><strong>O que você vai aprender:</strong></p>
-                <ul class="itens-lista">
-                    <li class="item-lista item-lista-"><strong>Entendendo Ataques Cibernéticos:</strong> Descubra o mundo das ameaças online e compreenda os diferentes tipos de ataques que podem comprometer a segurança digital.</li>
-                    <li class="item-lista item-lista-2"><strong>Desmistificando Códigos Maliciosos:</strong> Explore o universo dos códigos maliciosos, compreendendo como eles operam, quais são suas motivações e os riscos que apresentam.</li>
-                    <li class="item-lista item-lista-3"><strong>Protegendo seu Computador:</strong> Saiba como proteger proativamente seu dispositivo contra códigos maliciosos. Descubra aplicativos e ferramentas eficazes para prevenção, detecção e remoção de vírus.</li>
-                </ul>
-                <p><strong>Baixe o Guia:</strong></p>
-                <p>Acessar o conhecimento deste guia é simples e rápido. <a href="paginas/pagina-download.html">Clique aqui</a> para ir à página de download do seu exemplar. Você será redirecionado para uma página dedicada, onde encontrará o link direto para obter o arquivo em questão.</p>
-                <p>Investir alguns minutos na leitura deste guia pode significar uma defesa sólida contra ameaças virtuais. Capacite-se com o conhecimento necessário para manter seus dispositivos e informações pessoais em segurança. Baixe o guia agora mesmo e embarque nessa jornada de proteção digital.</p>
+                <h3 class="titulo-artigo">Livros</h3>
+                <p>No meu blog você também encotrará ebooks em pdf para download para te ajudar mais ainda à descobrir mais sobre o mundo da informática.</p>
             </article>
        </section>
    </main>

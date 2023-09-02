@@ -28,21 +28,13 @@ header{
     text-align: center;
     padding: 10px;
 }
-.menu .menu-1 .itens-menu{
-    display: inline;
-    padding: 20px;
-    font-size: 18px;
-}
 
-.menu .menu-1 .itens-menu a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: 700;
-    transition: 0.3s ease;
+.menu {
+    padding-left: 20px;
+    color: #000;
 }
-
-.menu .menu-1 .itens-menu a:hover{
-    color: #FF0000;
+.menu-livros {
+    padding-left: 20px;
 }
 
 .secao-1 {
@@ -104,3 +96,12 @@ img {
     margin: auto;
     margin-bottom: 30px;
 }
+
+.pictureContent img {
+    border: solid red;
+    border-radius: 10px;
+}
+
+
+
+
