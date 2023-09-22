@@ -35,6 +35,44 @@
                 <li class="item-lista"><strong>Tel:</strong> +55 (35) 9 6060-6060</li>
             </ul>
             <p><strong>Obs:</strong> Se não der 60 denovo</p>
+            <br>
+
+            <form>
+                <fieldset>
+                    <legend>Cadastre para receber novos conteúdos do blog assim que forem lançados</legend>
+                        <p><label for="idTexto">Nome:</label><input type="text" name="nTexto" id="idTexto" size="40" placeholder="Nome Completo"></p>
+                        <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail" placeholder="fulano014@gmail.com"></p>
+                        <p><label for="idSenha">Senha:</label><input 
+                            type="password" name="nSenha" id="idSenha"></p>
+                        <p><label for="idData">Data de Nascimento:</label><input type="date" name="nData" id="idData"></p>
+                        <label for="id1">Sexo:</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
+                        for="id1">Masculino</label>
+                    <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 2" id="id2"><label 
+                    for="id2">Feminino</label>
+                    <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 3" id="id3"><label 
+                    for="id3">outro</label>
+                    <br>  
+                    <label for="idSelecao">UF:</label><br>
+                    <select name="nSelecao" id="idSelecao">
+                        <option value="Coisa 1">GO</option>
+                        <option value="Coisa 2">MS</option>
+                        <option value="Coisa 3">MG</option>
+                        <option value="Coisa 4">RJ</option>
+                        <option value="Coisa 5">SP</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend></legend>
+                    <label for="idNum">O quanto você esta gostando do blog:</label><br><input type="number" name="nNum" id="idNum" min="0" max="10" placeholder="0 a 10">
+                    <br>
+                    <br>    
+                    <label for="idRange">O quanto o blog pode melhorar:</label><br><input type="range" min="1" max="10" name="nRange" id="idRange">
+                    <br>
+                    <br>
+                    <label for="idCaixa">Que tipo de conteúdo você gostaria de ver no blog:</label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui alguma coisa" name="nCaixa" id="idCaixa"></textarea><br>
+                </fieldset>
+            </form>
         </section> 
     </main>
 </body>

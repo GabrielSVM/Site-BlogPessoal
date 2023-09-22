@@ -1,3 +1,13 @@
+@charset "UTF-8";
+
+:root{
+    --preto: #121212;
+    --cinza: #ABABAB;
+    --amarelo: #F0CD3F;
+    --vermelhoescuro: #9E2224;
+    --cinzaclaro: #C7C7C7;
+
+}
 * {
     margin: 0;
     padding: 0;
