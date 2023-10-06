@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --preto: #121212;
-    --cinza: #ABABAB;
-    --amarelo: #F0CD3F;
-    --vermelhoescuro: #9E2224;
-    --cinzaclaro: #C7C7C7;
+    --jonquil: #E6C300;
+    --sgbus: #28E600;
+    --turkeyred: #A50000;
+    --zaffre: #0018B2;
+    --dimgray: #6F6F6F;;
 
 }
 * {
