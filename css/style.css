@@ -15,6 +15,10 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: var(--dimgray);
+}
+
 header{
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -37,14 +41,17 @@ header{
     font-weight: 700;
     text-align: center;
     padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu {
     padding-left: 20px;
     color: #000;
+    font-size: 20px;
 }
 .menu-livros {
     padding-left: 20px;
+    font-size: 20px;
 }
 
 .secao-1 {
@@ -72,22 +79,24 @@ header{
 p {
     line-height: 1.5;
     padding-bottom: 8px;
+    background-color: #ffffff;
 }
 
 .itens-lista {
     line-height: 1.5;
     padding-bottom: 8px;
+    font-size: 20px;
 }
 
 .item-lista {
     list-style: disc;
-    
 }
 
 .item-lista a {
     color: #010ca9;
     transition: 0.3s ease;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .item-lista a:hover {
