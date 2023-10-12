@@ -15,6 +15,11 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+a:active, a:visited{
+    color: var(--zaffre);
+}
+
 body {
     background-color: var(--dimgray);
 }
@@ -46,12 +51,12 @@ header{
 
 .menu {
     padding-left: 20px;
-    color: #000;
-    font-size: 20px;
+    color: #000000;
+    font-size: 1.25em;
 }
 .menu-livros {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .secao-1 {
@@ -85,7 +90,7 @@ p {
 .itens-lista {
     line-height: 1.5;
     padding-bottom: 8px;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .item-lista {
@@ -93,14 +98,14 @@ p {
 }
 
 .item-lista a {
-    color: #010ca9;
+    color: var(--zaffre);
     transition: 0.3s ease;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .item-lista a:hover {
-    color: #015eff;
+    color: var(--sgbus);
 }
 
 .fotos-minhas {
@@ -117,7 +122,7 @@ img {
 }
 
 .pictureContent img {
-    border: solid red;
+    border: solid var(--turkeyred);
     border-radius: 10px;
 }
 
